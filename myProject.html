@@ -1,0 +1,191 @@
+<html>
+  <head>
+    <title>Day 4 - myProject</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/project.css" />
+  </head>
+  <body style="font-family: Arial, sans-serif; background-color: #e3e7eb">
+    <!--Navbar start-->
+    <nav id="navbar" class="navbar-container">
+      <div class="navbar-main">
+        <div class="navbar-content">
+          <a href="/" class="navbar-logo"
+            ><img src="assets/image/logo.png" alt="dumbways-logos"
+          /></a>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a
+                href="/"
+                class="navbar-link"
+                style="font-weight: bold; margin-right: 20px"
+                >Home</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="myproject.html" class="navbar-link" id="pro"
+                >My Project</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-second">
+        <div class="navbar-button">
+          <a
+            href="/contact.html"
+            id="contact-button"
+            class="button-contact"
+            target="_blank"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!--Navbar end-->
+
+    <!--Layout star-->
+    <!-- <div class="body">
+      <h1>Dumbways Web App</h1>
+      <div class="img">
+        <img src="assets/image/foto1.jpg" alt="" style="width: 730px" />
+        <h3>Duration</h3>
+      </div>
+      <div class="text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vel vero
+          officia eum in quia praesentium illum? Iure enim minima magni dolore
+          blanditiis, reprehenderit quaerat iusto doloremque nam maxime
+          praesentium alias laboriosam illo debitis perspiciatis, eveniet
+          tempora repellat possimus corrupti harum provident atque. Quae, enim
+          natus rem dicta delectus consectetur est, saepe veniam numquam sint
+          optio pariatur provident excepturi nesciunt dolorem vitae aut
+          voluptatum explicabo! Nam deleniti ipsum accusamus veritatis
+          reiciendis eligendi numquam, iure error sunt vitae rerum obcaecati
+          ipsa nobis at aliquam repudiandae veniam sit. Repellendus maxime
+          recusandae cum culpa, omnis laborum voluptate dolore laboriosam
+          debitis ex, nulla quaerat.
+        </p>
+        <p>
+          adipisicing elit. Nihil distinctio quod accusantium error cumque aut
+          nostrum nemo saepe. Ad, sit error. Ducimus nihil illum iusto animi ab
+          aut obcaecati ratione assumenda sunt, nostrum qui tenetur explicabo
+          mollitia nobis velit accusantium architecto ullam ipsum labore
+          veritatis eos. Porro doloribus debitis suscipit dignissimos, dolore
+          mollitia ducimus laudantium. Eum quia cum molestiae eligendi non quos
+          fugit consequatur quam repellendus corrupti officia nam, praesentium
+          iste, inventore ipsum fugiat sint. Expedita dolores tempore
+          repellendus quam quos sed, aut quo quis et mollitia nostrum commodi,
+          ipsam non, excepturi laborum harum quaerat iusto pariatur sint odio?
+          Facilis.
+        </p>
+      </div>
+    </div> -->
+
+    <!--Layout end-->
+
+    <div class="container">
+      <h1>ADD MY PROJECT</h1>
+      <form onsubmit="getData(event)">
+        <div class="form-item">
+          <label for="projectname">Project Name</label>
+          <input id="projectname" type="text" style="width: 650px" />
+        </div>
+        <div class="form-item-date">
+          <div class="date-item">
+            <label for="startdate">Start Date</label>
+            <input id="startdate" type="date" style="width: 300px" />
+          </div>
+          <div class="date-item">
+            <label for="enddate">End Date</label>
+            <input id="enddate" type="date" style="width: 300px" />
+          </div>
+        </div>
+        <div class="form-item">
+          <label for="description">Description</label>
+          <textarea
+            class="description"
+            id="description"
+            style="width: 650; height: 150px"
+          ></textarea>
+        </div>
+        <div class="form-item">
+          <label for="tech">Technologies</label>
+          <div class="tech">
+            <div class="tech-item">
+              <input
+                type="checkbox"
+                id="nodejs"
+                name="nodejs"
+                value="Node Js"
+              />
+              <label for="nodejs">Node Js</label>
+            </div>
+            <div class="tech-item">
+              <input
+                type="checkbox"
+                id="nextjs"
+                name="nextjs"
+                value="Next js"
+              />
+              <label for="nextjs">Next Js</label>
+            </div>
+            <div class="tech-item">
+              <input type="checkbox" id="reactjs" name="reactjs" />
+              <label for="reactjs">React Js</label>
+            </div>
+            <div class="tech-item">
+              <input type="checkbox" id="typescript" name="typescript" />
+              <label for="typescript">Typescript</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-item">
+          <label for="file">Upload Image</label>
+          <input id="blog-img" type="file" style="width: 650px" />
+        </div>
+        <div class="submit">
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+    <!--container2-->
+    <div class="container2">
+      <h1 class="head">MY PROJECT</h1>
+      <div class="container-blog" id="contents">
+        <!-- <div class="card-post">
+          <img class="post-img" src="./assets/images/spotify.webp" />
+          <div class="title-date">
+            <h1 class="title">Spotify Clone 2023</h1>
+            <h3 class="date">Durasi : 2 bulan</h3>
+          </div>
+          <div class="post-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              autem sunt iusto aliquamIste autem sunt iusto aliquamIste autem
+              sunt iusto aliquamIste autem sunt iusto aliquamIste autem sunt
+              iusto aliquamIste autem sunt iusto aliquamIste autem sunt iusto
+              aliquamIste autem sunt iusto aliquam
+            </p>
+          </div>
+          <div class="tag-tech" id="tag-tech">
+            <img src="assets/image/nextjs.png" alt="" />
+            <img src="assets/image/nodejs.png" alt="" />
+            <img src="assets/image/typescript.png" alt="" />
+            <img src="assets/image/reactjs.png" alt="" style="width: 28px" />
+          </div>
+          <div class="post-button">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <script src="js/blog.js"></script>
+  </body>
+</html>
