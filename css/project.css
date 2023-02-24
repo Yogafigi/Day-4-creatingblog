@@ -71,7 +71,7 @@ a:active {
 /* PROJECT */
 .container {
   width: 100vh;
-  height: 110vh;
+  height: 130vh;
   margin: auto;
 }
 .container h1 {
@@ -149,7 +149,7 @@ form * {
 .submit {
   float: right;
   width: 120px;
-  margin-right: 37px;
+  margin-right: 0px;
 }
 .submit button {
   font-size: 20px;
