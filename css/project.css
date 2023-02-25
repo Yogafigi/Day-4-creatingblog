@@ -136,7 +136,7 @@ form * {
 .form-item .tech {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 300px;
+  margin-right: 250px;
 }
 .tech .tech-item {
   margin: 5px;
