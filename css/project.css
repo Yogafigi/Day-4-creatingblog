@@ -46,6 +46,10 @@ a:active {
   font-size: 17px;
 }
 
+a:hover {
+  color: aquamarine;
+}
+
 .navbar-link::after {
   color: black;
   font-weight: bold;
@@ -107,12 +111,12 @@ form * {
   display: flex;
   justify-content: space-between;
 }
-.form-item-date .date-item {
+.date-item {
   display: flex;
   flex-direction: column;
   width: 47%;
 }
-.form-item-date .date-item label {
+.date-item label {
   margin-bottom: 5px;
   font-weight: 600;
 }
@@ -136,7 +140,7 @@ form * {
 .form-item .tech {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 300px;
+  margin-right: 250px;
 }
 .tech .tech-item {
   margin: 5px;
@@ -144,7 +148,7 @@ form * {
 }
 
 .form-item .tech .tech-item label {
-  color: #5c5858;
+  color: #787474;
 }
 .submit {
   float: right;
@@ -168,10 +172,10 @@ form * {
   background-color: white;
   padding-top: 45px;
 }
-.container2 h1.head {
+h1.head {
   text-align: center;
 }
-.container2 .container-blog {
+.container-blog {
   display: flex;
   flex-wrap: wrap;
   width: 900px;
@@ -180,7 +184,7 @@ form * {
 }
 .card-post {
   width: 28%;
-  height: 360px;
+  height: 380px;
   margin: 10px;
   padding: 10px;
   background-color: white;
@@ -200,6 +204,7 @@ form * {
   font-size: 20px;
   font-weight: normal;
   text-transform: capitalize;
+  margin-bottom: 10px;
 }
 .card-post .title-date .date {
   font-weight: normal;

@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Day 4 - myProject</title>
+    <title>Day 5 - myProject</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -28,9 +28,7 @@
               >
             </li>
             <li class="navbar-item">
-              <a href="myproject.html" class="navbar-link" id="pro"
-                >My Project</a
-              >
+              <a href="myproject.html" class="navbar-link">My Project</a>
             </li>
           </ul>
         </div>
@@ -49,61 +47,21 @@
     </nav>
     <!--Navbar end-->
 
-    <!--Layout star-->
-    <!-- <div class="body">
-      <h1>Dumbways Web App</h1>
-      <div class="img">
-        <img src="assets/image/foto1.jpg" alt="" style="width: 730px" />
-        <h3>Duration</h3>
-      </div>
-      <div class="text">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vel vero
-          officia eum in quia praesentium illum? Iure enim minima magni dolore
-          blanditiis, reprehenderit quaerat iusto doloremque nam maxime
-          praesentium alias laboriosam illo debitis perspiciatis, eveniet
-          tempora repellat possimus corrupti harum provident atque. Quae, enim
-          natus rem dicta delectus consectetur est, saepe veniam numquam sint
-          optio pariatur provident excepturi nesciunt dolorem vitae aut
-          voluptatum explicabo! Nam deleniti ipsum accusamus veritatis
-          reiciendis eligendi numquam, iure error sunt vitae rerum obcaecati
-          ipsa nobis at aliquam repudiandae veniam sit. Repellendus maxime
-          recusandae cum culpa, omnis laborum voluptate dolore laboriosam
-          debitis ex, nulla quaerat.
-        </p>
-        <p>
-          adipisicing elit. Nihil distinctio quod accusantium error cumque aut
-          nostrum nemo saepe. Ad, sit error. Ducimus nihil illum iusto animi ab
-          aut obcaecati ratione assumenda sunt, nostrum qui tenetur explicabo
-          mollitia nobis velit accusantium architecto ullam ipsum labore
-          veritatis eos. Porro doloribus debitis suscipit dignissimos, dolore
-          mollitia ducimus laudantium. Eum quia cum molestiae eligendi non quos
-          fugit consequatur quam repellendus corrupti officia nam, praesentium
-          iste, inventore ipsum fugiat sint. Expedita dolores tempore
-          repellendus quam quos sed, aut quo quis et mollitia nostrum commodi,
-          ipsam non, excepturi laborum harum quaerat iusto pariatur sint odio?
-          Facilis.
-        </p>
-      </div>
-    </div> -->
-
-    <!--Layout end-->
-
     <div class="container">
       <h1>ADD MY PROJECT</h1>
-      <form onsubmit="getData(event)">
+      <form onsubmit="getProject(event)">
         <div class="form-item">
           <label for="projectname">Project Name</label>
-          <input id="projectname" type="text" style="width: 650px" />
+          <input id="projectname" type="text" style="width: 100%" />
         </div>
         <div class="form-item-date">
           <div class="date-item">
             <label for="startdate">Start Date</label>
-            <input id="startdate" type="date" style="width: 300px" />
+            <input id="startdate" type="date" />
           </div>
           <div class="date-item">
             <label for="enddate">End Date</label>
-            <input id="enddate" type="date" style="width: 300px" />
+            <input id="enddate" type="date" />
           </div>
         </div>
         <div class="form-item">
@@ -111,7 +69,7 @@
           <textarea
             class="description"
             id="description"
-            style="width: 650; height: 150px"
+            style="width: 100%; height: 150px"
           ></textarea>
         </div>
         <div class="form-item">
@@ -147,7 +105,7 @@
         </div>
         <div class="form-item">
           <label for="file">Upload Image</label>
-          <input id="blog-img" type="file" style="width: 650px" />
+          <input id="blog-img" type="file" style="width: 100%" />
         </div>
         <div class="submit">
           <button>Submit</button>
@@ -158,11 +116,14 @@
     <div class="container2">
       <h1 class="head">MY PROJECT</h1>
       <div class="container-blog" id="contents">
-        <!-- <div class="card-post">
-          <img class="post-img" src="./assets/images/spotify.webp" />
+        <div class="card-post">
+          <img
+            class="post-img"
+            src="assets/image/what-is-a-web-developer.jpg"
+          />
           <div class="title-date">
-            <h1 class="title">Spotify Clone 2023</h1>
-            <h3 class="date">Durasi : 2 bulan</h3>
+            <h1 class="title">Web Developer</h1>
+            <h3 class="date">Durasi : 9 bulan</h3>
           </div>
           <div class="post-content">
             <p>
@@ -174,16 +135,74 @@
             </p>
           </div>
           <div class="tag-tech" id="tag-tech">
-            <img src="assets/image/nextjs.png" alt="" />
+            <img src="assets/image/nextjs.png" alt="" style="width: 24px" />
             <img src="assets/image/nodejs.png" alt="" />
-            <img src="assets/image/typescript.png" alt="" />
+            <img src="assets/image/typescript.png" alt="" style="width: 22px" />
             <img src="assets/image/reactjs.png" alt="" style="width: 28px" />
           </div>
           <div class="post-button">
             <button class="edit">Edit</button>
             <button class="delete">Delete</button>
           </div>
-        </div> -->
+        </div>
+        <div class="card-post">
+          <img
+            class="post-img"
+            src="assets/image/what-is-a-web-developer.jpg"
+          />
+          <div class="title-date">
+            <h1 class="title">Web Developer</h1>
+            <h3 class="date">Durasi : 9 bulan</h3>
+          </div>
+          <div class="post-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              autem sunt iusto aliquamIste autem sunt iusto aliquamIste autem
+              sunt iusto aliquamIste autem sunt iusto aliquamIste autem sunt
+              iusto aliquamIste autem sunt iusto aliquamIste autem sunt iusto
+              aliquamIste autem sunt iusto aliquam
+            </p>
+          </div>
+          <div class="tag-tech" id="tag-tech">
+            <img src="assets/image/nextjs.png" alt="" style="width: 24px" />
+            <img src="assets/image/nodejs.png" alt="" />
+            <img src="assets/image/typescript.png" alt="" style="width: 22px" />
+            <img src="assets/image/reactjs.png" alt="" style="width: 28px" />
+          </div>
+          <div class="post-button">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+        </div>
+        <div class="card-post">
+          <img
+            class="post-img"
+            src="assets/image/what-is-a-web-developer.jpg"
+          />
+          <div class="title-date">
+            <h1 class="title">Web Developer</h1>
+            <h3 class="date">Durasi : 9 bulan</h3>
+          </div>
+          <div class="post-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              autem sunt iusto aliquamIste autem sunt iusto aliquamIste autem
+              sunt iusto aliquamIste autem sunt iusto aliquamIste autem sunt
+              iusto aliquamIste autem sunt iusto aliquamIste autem sunt iusto
+              aliquamIste autem sunt iusto aliquam
+            </p>
+          </div>
+          <div class="tag-tech" id="tag-tech">
+            <img src="assets/image/nextjs.png" alt="" style="width: 24px" />
+            <img src="assets/image/nodejs.png" alt="" />
+            <img src="assets/image/typescript.png" alt="" style="width: 22px" />
+            <img src="assets/image/reactjs.png" alt="" style="width: 28px" />
+          </div>
+          <div class="post-button">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+        </div>
       </div>
     </div>
     <script src="js/blog.js"></script>

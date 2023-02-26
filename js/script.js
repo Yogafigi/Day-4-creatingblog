@@ -25,12 +25,6 @@ function getContact() {
 
   a.click();
 
-  //   console.log(name);
-  //   console.log(gmail);
-  //   console.log(number);
-  //   console.log(subject);
-  //   console.log(message);
-
   alert("Sukses mengirim pesan");
 
   let data = {
